@@ -217,4 +217,4 @@ omit = [ "tests/*", "**/test_*" ]
 [tool.uv]
 package = false
 exclude-newer = "7 days"
-exclude-newer-package = { openhands-agent-server = false, openhands-sdk = false, openhands-tools = false, litellm = false, procrastinate = "2026-09-24T00:00:00Z" }
+exclude-newer-package = { openhands-agent-server = false, openhands-sdk = false, openhands-tools = false, procrastinate = "2026-09-24T00:00:00Z" }
